@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `UX Moderno`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Abel Nascimento`,
+      summary: `um blog que busca expor a realidade do marketing digital sem censuras, focado em resolução de problemas.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `Um blog de marketing digital e usabilidade.`,
+    siteUrl: `https://uxmoderno.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `abelxnascimento`,
     },
   },
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              quality: 100,
             },
           },
           {
@@ -53,15 +53,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-162513432-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `UX Moderno`,
+        short_name: `UXModerno`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
